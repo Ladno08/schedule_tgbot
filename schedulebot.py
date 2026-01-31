@@ -69,6 +69,7 @@ def remind_day(message):
             else:
                 time.sleep(1800)
         bot.send_message(message.chat.id, f'без б, напомню, что у тебя {user_event[0]} за час до')
+        print('dqa[]dewa3d')
 
 
 
